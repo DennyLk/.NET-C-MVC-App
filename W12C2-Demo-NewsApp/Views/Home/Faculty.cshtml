@@ -1,0 +1,51 @@
+﻿@model FacultyViewModel
+
+<h1>Faculty Page</h1>
+<link href="~/css/faculty.css" rel="stylesheet" type="text/css" />
+
+@if (Model.Faculty != null && Model.Faculty.Length > 0)
+{
+    <div class="row">
+        @foreach (var faculty in Model.Faculty)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="@faculty.ImagePath" class="card-img-top" alt="@faculty.Name">
+                        </div>
+                        <div class="flip-card-back">
+                            <div class="card-body">
+                                <h5 class="card-title">@faculty.Name</h5>
+                                <p class="card-text">@faculty.Title</p>
+                                <ul class="list-unstyled">
+                                    <li><strong>Interest Area:</strong> @faculty.InterestArea</li>
+                                    <li><strong>Office:</strong> @faculty.Office</li>
+                                    @if (!string.IsNullOrEmpty(faculty.Phone))
+                                    {
+                                        <li><strong>Phone:</strong> @faculty.Phone</li>
+                                    }
+                                    <li><strong>Email:</strong> <a href="mailto:@faculty.Email">@faculty.Email</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="col-12">
+        <h4>No faculty data available</h4>
+    </div>
+}
+
+@section Scripts {
+    <script>$(document).ready(function () {
+            $('.flip-card').click(function () {
+                $(this).toggleClass('flipped');
+            });
+        });</script>
+}

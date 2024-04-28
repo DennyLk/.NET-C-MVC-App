@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/W12C2-Demo-NewsApp.props" />
+</Project>

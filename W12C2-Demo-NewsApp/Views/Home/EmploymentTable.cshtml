@@ -1,0 +1,52 @@
+﻿@model W12C2_Demo_NewsApp.Models.EmploymentTableModelView
+
+<h1>Employment Table</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Employer</th>
+            <th>Degree</th>
+            <th>City</th>
+            <th>Title</th>
+            <th>Start Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model?.EmploymentTable?.ProfessionalEmploymentInformation != null)
+        {
+            foreach (var employmentInfo in Model.EmploymentTable.ProfessionalEmploymentInformation)
+            {
+                <tr>
+                    <td>@employmentInfo.Employer</td>
+                    <td>@employmentInfo.Degree</td>
+                    <td>@employmentInfo.City</td>
+                    <td>@employmentInfo.Title</td>
+                    <td>@employmentInfo.StartDate</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">No employment data available.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.table').DataTable({
+                "paging": true, // enables pagination
+                "ordering": true, // enables sorting
+                "info": true, // provides info like "Showing 1 to 10 of 50 entries"
+                "searching": true, // enables a search box
+                // customize what features appear and where
+                "dom": 'lrtip' // element order: l - length changing input, r - processing display, t - table, i - table info, p - pagination
+            });
+        });
+    </script>
+}

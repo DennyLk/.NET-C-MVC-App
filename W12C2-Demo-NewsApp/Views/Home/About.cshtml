@@ -1,0 +1,20 @@
+﻿@model AboutViewModel
+
+<h1>About Page</h1>
+<p id="description" style="display:none;">@Model?.About?.Description</p>
+<blockquote style="display:none;">
+    @Model?.About?.Quote
+    <footer>@Model?.About?.QuoteAuthor</footer>
+</blockquote>
+<button id="showContent">Show Content</button>
+
+
+@section Scripts {
+    <script>$(document).ready(function () {
+            $('#showContent').click(function () {
+                $('#description, blockquote').slideDown('slow');
+            });
+        });</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+}

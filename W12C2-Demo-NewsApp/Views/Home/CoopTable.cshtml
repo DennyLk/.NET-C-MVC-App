@@ -1,0 +1,47 @@
+﻿@model CoopTableViewModel
+
+<h1>Coop Table</h1>
+
+@if (Model?.CoopTable?.CoopInformation != null && Model.CoopTable.CoopInformation.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Employer</th>
+                <th>Degree</th>
+                <th>City</th>
+                <th>Term</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var coopInfo in Model.CoopTable.CoopInformation)
+            {
+                <tr>
+                    <td>@coopInfo.Employer</td>
+                    <td>@coopInfo.Degree</td>
+                    <td>@coopInfo.City</td>
+                    <td>@coopInfo.Term</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No co-op information available</p>
+}
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>$(document).ready(function () {
+            $('.table').DataTable({
+                "paging": true, // enables pagination
+                "ordering": true, // enables sorting
+                "info": true, // provides info like "Showing 1 to 10 of 50 entries"
+                "searching": true, // enables a search box
+                // customize what features appear and where
+                "dom": 'lrtip' // element order: l - length changing input, r - processing display, t - table, i - table info, p - pagination
+            });
+        });</script>
+}

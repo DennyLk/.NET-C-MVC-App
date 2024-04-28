@@ -1,0 +1,63 @@
+﻿@model GraduateViewModel
+
+<h1>Graduate Degrees</h1>
+
+@if (Model.graduate != null && Model.graduate.Length > 0)
+{
+    <div class="row">
+        @foreach (var degree in Model.graduate)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@degree.Title</h5>
+                        <p class="card-text">@degree.Description</p>
+                        @if (degree.Concentrations != null)
+                        {
+                            <a href="javascript:void(0);" class="toggle-link">Show Concentrations</a>
+                            <ul class="list-group collapse">
+                                @foreach (var concentration in degree.Concentrations)
+                                {
+                                    <li class="list-group-item">@concentration</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                                                  }
+                        @if (degree.AvailableCertificates != null && degree.AvailableCertificates.Length > 0)
+                        {
+                            <a href="javascript:void(0);" class="toggle-link">Show Certificates</a>
+                            <ul class="list-group collapse">
+                                @foreach (var certificate in degree.AvailableCertificates)
+                                {
+                                    <li class="list-group-item">@certificate</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="col-12">
+        <h4>No graduate degree data available</h4>
+    </div>
+}
+
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function () {
+            $('.toggle-link').click(function () {
+                var text = $(this).text();
+                $(this).next('.collapse').collapse('toggle');
+                $(this).text(text.includes('Show') ? text.replace('Show', 'Hide') : text.replace('Hide', 'Show'));
+            });
+        });</script>
+}
+

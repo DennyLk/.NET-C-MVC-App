@@ -1,0 +1,29 @@
+﻿@model NewsViewModel
+
+<h1>Welcome to News Page</h1>
+
+<div id="accordion-news">
+    @if (Model.Older != null)
+    {
+        @foreach (var news in Model.Older)
+        {
+            <h3><b>@news.Date:</b> @news.Title</h3>
+            <div>
+                <p>@news.Description</p>
+            </div>
+        }
+    }
+    else
+    {
+        <h4>No data returned for news endpoint</h4>
+    }
+</div>
+
+@section Scripts {
+    <script>$("#accordion-news").accordion({
+            collapsible: true,
+            heightStyle: "content"
+        });</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+}

@@ -1,0 +1,57 @@
+﻿@model UndergraduateViewModel
+
+<h1>Undergraduate Degrees</h1>
+
+@if (Model.Undergraduate != null && Model.Undergraduate.Count() > 0)
+{
+    <div class="row">
+        @foreach (var degree in Model.Undergraduate)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@degree.Title</h5>
+                        <p class="card-text">@degree.Description</p>
+                        @if (degree.Concentrations != null && degree.Concentrations.Any())
+                        {
+                            <a href="javascript:void(0);" class="toggle-concentrations">Show Concentrations</a>
+                            <ul class="list-group collapse">
+                                @foreach (var concentration in degree.Concentrations)
+                                {
+                                    <li class="list-group-item">@concentration</li>
+                                }
+                            </ul>
+                        }
+                        else
+                        {
+                            <p>No concentrations available</p>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="col-12">
+        <h4>No undergraduate degree data available</h4>
+    </div>
+}
+
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>$(document).ready(function () {
+            $('.toggle-concentrations').click(function () {
+                $(this).next('.collapse').collapse('toggle');
+                if ($(this).text() === 'Show Concentrations') {
+                    $(this).text('Hide Concentrations');
+                } else {
+                    $(this).text('Show Concentrations');
+                }
+            });
+        });</script>
+}
+

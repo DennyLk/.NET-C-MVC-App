@@ -1,0 +1,48 @@
+﻿<Properties StartupConfiguration="{CCD86836-6768-41F1-BC42-31924FDCC8D4}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="W12C2-Demo-NewsApp/Models/UndergraduateModel.cs">
+    <Files>
+      <File FileName="W12C2-Demo-NewsApp/Models/UndergraduateModel.cs" Line="25" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Models/FacultyModel.cs" Line="1" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Models/FacultyViewModel.cs" Line="1" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Models/UndergraduateVIewModel.cs" Line="16" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Controllers/HomeController.cs" Line="18" Column="27" />
+      <File FileName="W12C2-Demo-NewsApp/Models/NewsViewModel.cs" Line="1" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml" Line="29" Column="25" />
+      <File FileName="W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml.cs" Line="13" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="W12C2-Demo-NewsApp" expanded="True">
+            <Node name="W12C2-Demo-NewsApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="UndergraduateModel.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Undergraduate.cshtml" expanded="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.W12C2-Demo-NewsApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

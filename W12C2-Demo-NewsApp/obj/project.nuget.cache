@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RxKAJGHGAy9RJcl7hgThg5rWGr/Qk0gVK8r6usDAWuOuWGML0VubnhzKhe9oW6d8eEMV9iu741Hy5s4R+VJxhw==",
+  "success": true,
+  "projectFilePath": "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/dennylulak/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
