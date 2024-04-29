@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj": {}
+    "/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj": {}
   },
   "projects": {
-    "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj": {
+    "/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj",
+        "projectUniqueName": "/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj",
         "projectName": "W12C2-Demo-NewsApp",
-        "projectPath": "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj",
+        "projectPath": "/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp.csproj",
         "packagesPath": "/Users/dennylulak/.nuget/packages/",
-        "outputPath": "/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/obj/",
+        "outputPath": "/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/dennylulak/.nuget/NuGet/NuGet.Config"

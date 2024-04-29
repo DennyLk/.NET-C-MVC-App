@@ -1,21 +1,26 @@
 ﻿@model UndergraduateViewModel
+<!-- Undergraduate Degrees Header -->
+<h1 style="color: orange; padding-top: 50px; text-align: center; padding-bottom: 50px; ">Undergraduate Degrees</h1>
 
-<h1>Undergraduate Degrees</h1>
-
+<!-- Check if Undergraduate degree data exists -->
 @if (Model.Undergraduate != null && Model.Undergraduate.Count() > 0)
 {
-    <div class="row">
+    <!-- Iterate through each undergraduate degree -->
+    <div class="row" style="padding-bottom: 300px;">
         @foreach (var degree in Model.Undergraduate)
         {
+            <!-- Undergraduate Degree Card -->
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <h5 class="card-title">@degree.Title</h5>
+                        <h5 class="card-title" style="color: orange;">@degree.Title</h5>
                         <p class="card-text">@degree.Description</p>
+                        <!-- Check if Concentrations exist -->
                         @if (degree.Concentrations != null && degree.Concentrations.Any())
                         {
-                            <a href="javascript:void(0);" class="toggle-concentrations">Show Concentrations</a>
+                            <a href="javascript:void(0);" class="toggle-concentrations" style="color: orange;">Show Concentrations</a>
                             <ul class="list-group collapse">
+                                <!-- Iterate through each concentration -->
                                 @foreach (var concentration in degree.Concentrations)
                                 {
                                     <li class="list-group-item">@concentration</li>
@@ -34,24 +39,23 @@
 }
 else
 {
+    <!-- No undergraduate degree data available message -->
     <div class="col-12">
         <h4>No undergraduate degree data available</h4>
     </div>
 }
 
-
+<!-- Scripts Section -->
 @section Scripts {
+    <!-- jQuery and Bootstrap scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Toggle Concentrations Script -->
     <script>$(document).ready(function () {
             $('.toggle-concentrations').click(function () {
-                $(this).next('.collapse').collapse('toggle');
-                if ($(this).text() === 'Show Concentrations') {
-                    $(this).text('Hide Concentrations');
-                } else {
-                    $(this).text('Show Concentrations');
-                }
+                $(this).siblings('.collapse').collapse('toggle');
+                var text = $(this).text();
+                $(this).text(text.includes('Show') ? text.replace('Show', 'Hide') : text.replace('Hide', 'Show'));
             });
         });</script>
 }
-

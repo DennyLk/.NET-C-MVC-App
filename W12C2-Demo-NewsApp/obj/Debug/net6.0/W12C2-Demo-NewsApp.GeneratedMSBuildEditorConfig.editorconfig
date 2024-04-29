@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = W12C2_Demo_NewsApp
 build_property.RootNamespace = W12C2_Demo_NewsApp
-build_property.ProjectDir = /Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/
+build_property.ProjectDir = /Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp
+build_property.MSBuildProjectDirectory = /Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/About.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/CoopTable.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/CoopTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db29wVGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/EmploymentTable.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/EmploymentTable.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FbXBsb3ltZW50VGFibGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Faculty.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Faculty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9GYWN1bHR5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Graduate.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Graduate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HcmFkdWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Index.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/News.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/News.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9OZXdzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9VbmRlcmdyYWR1YXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/Error.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/_ViewImports.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/_ViewStart.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dennylulak/Downloads/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/_Layout.cshtml]
+[/Users/dennylulak/Desktop/W12C2-Demo-NewsApp/W12C2-Demo-NewsApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zwxwjsf02l

@@ -1,7 +1,9 @@
 ﻿@model W12C2_Demo_NewsApp.Models.EmploymentTableModelView
+<!-- Header -->
+<h1 style="color: orange; padding-top: 50px; text-align: center; padding-bottom: 50px;">Employment Table</h1>
 
-<h1>Employment Table</h1>
-<table class="table">
+<!-- Employment Information Table -->
+<table class="table" style="padding-bottom: 50px;">
     <thead>
         <tr>
             <th>Employer</th>
@@ -34,19 +36,17 @@
     </tbody>
 </table>
 
+<!-- Scripts -->
 @section Scripts {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-    <script>
-        $(document).ready(function () {
+    <script>$(document).ready(function () {
             $('.table').DataTable({
-                "paging": true, // enables pagination
-                "ordering": true, // enables sorting
-                "info": true, // provides info like "Showing 1 to 10 of 50 entries"
-                "searching": true, // enables a search box
-                // customize what features appear and where
-                "dom": 'lrtip' // element order: l - length changing input, r - processing display, t - table, i - table info, p - pagination
+                "paging": true,
+                "ordering": true,
+                "info": true,
+                "searching": true,
+                "dom": 'lrtip'
             });
-        });
-    </script>
+        });</script>
 }

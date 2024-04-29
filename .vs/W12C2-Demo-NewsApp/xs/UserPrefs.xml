@@ -1,39 +1,31 @@
 ﻿<Properties StartupConfiguration="{CCD86836-6768-41F1-BC42-31924FDCC8D4}|Default">
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="W12C2-Demo-NewsApp/Models/UndergraduateModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="W12C2-Demo-NewsApp/wwwroot/css/faculty.css">
     <Files>
-      <File FileName="W12C2-Demo-NewsApp/Models/UndergraduateModel.cs" Line="25" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Models/FacultyModel.cs" Line="1" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Models/FacultyViewModel.cs" Line="1" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Models/UndergraduateVIewModel.cs" Line="16" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Controllers/HomeController.cs" Line="18" Column="27" />
-      <File FileName="W12C2-Demo-NewsApp/Models/NewsViewModel.cs" Line="1" Column="1" />
-      <File FileName="W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml" Line="29" Column="25" />
-      <File FileName="W12C2-Demo-NewsApp/Views/Home/Undergraduate.cshtml.cs" Line="13" Column="1" />
+      <File FileName="W12C2-Demo-NewsApp/Views/Home/About.cshtml" Line="17" Column="21" />
+      <File FileName="W12C2-Demo-NewsApp/wwwroot/css/faculty.css" Line="37" Column="24" />
+      <File FileName="W12C2-Demo-NewsApp/Views/Home/Faculty.cshtml" Line="16" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="W12C2-Demo-NewsApp" expanded="True">
-            <Node name="W12C2-Demo-NewsApp" expanded="True">
+            <Node name="W12C2-Demo-NewsApp">
               <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="UndergraduateModel.cs" selected="True" />
-              </Node>
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Undergraduate.cshtml" expanded="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="js" expanded="True" />
+              <Node name="wwwroot">
+                <Node name="css">
+                  <Node name="faculty.css" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>

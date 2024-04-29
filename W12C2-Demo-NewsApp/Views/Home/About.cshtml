@@ -1,20 +1,26 @@
 ﻿@model AboutViewModel
+<!-- Header -->
+<h1 style="text-align: center; color: orange; padding-top:40px; padding-bottom: 30px;">About Page</h1>
 
-<h1>About Page</h1>
+<!-- Description -->
 <p id="description" style="display:none;">@Model?.About?.Description</p>
+
+<!-- Quotation -->
 <blockquote style="display:none;">
     @Model?.About?.Quote
     <footer>@Model?.About?.QuoteAuthor</footer>
 </blockquote>
-<button id="showContent">Show Content</button>
 
+<!-- Button to show content -->
+<button id="showContent" style="background-color: orange; color: white; border: none; padding: 10px 20px; cursor: pointer;">Show Content</button>
 
+<!-- Scripts -->
 @section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script>$(document).ready(function () {
             $('#showContent').click(function () {
-                $('#description, blockquote').slideDown('slow');
+                $('#description, blockquote').effect('blind', { mode: 'show' }, 1000);
             });
         });</script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 }
